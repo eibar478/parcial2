@@ -1,0 +1,15 @@
+<body>
+
+    <div class="cjp card-columns">
+
+        <div class="card" *ngFor="let jugadoress of jugadores">
+            <a [routerLink]="jugadoress.l">
+                <img class="card-img" [src]="jugadoress.img" alt="Card image">
+                <p>{{jugadoress.nombre}}</p>
+            </a>
+        </div>
+
+
+    </div>
+
+</body>
